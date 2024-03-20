@@ -1,0 +1,5 @@
+com\nttdata\microservice\bankcreditaccounts\service\impl\CreditMovementServiceImplTest.class
+com\nttdata\microservice\bankcreditaccounts\controllers\CreditMovementControllerTest.class
+com\nttdata\microservice\bankcreditaccounts\ApplicationTests.class
+com\nttdata\microservice\bankcreditaccounts\service\impl\CreditServiceImplTest.class
+com\nttdata\microservice\bankcreditaccounts\controllers\CreditControllerTest.class

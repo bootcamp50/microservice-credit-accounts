@@ -1,0 +1,13 @@
+version: '3'
+services:
+    mongo-credit-accounts:
+        image: mongo
+        ports:
+            - 27018:27017
+        #environment:
+            #MONGO_INITDB_ROOT_USERNAME: root 
+            #MONGO_INITDB_ROOT_PASSWORD: example
+    credit-accounts:
+        build: .
+        ports:
+            - 8083:8083

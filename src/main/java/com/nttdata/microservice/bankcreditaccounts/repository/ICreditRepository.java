@@ -11,6 +11,7 @@ import reactor.core.publisher.Flux;
 @Repository
 public interface ICreditRepository extends ReactiveCrudRepository<CreditCollection, ObjectId>{
 
-	public Flux<CreditCollection> findByPersonCode(String personCode);
+	//public Flux<CreditCollection> findByPersonCode(String personCode);
 	public Flux<CreditCollection> findByCreditNumber(String creditNumber);
+	public Flux<CreditCollection> findCreditsByCustomerId(String id);
 }

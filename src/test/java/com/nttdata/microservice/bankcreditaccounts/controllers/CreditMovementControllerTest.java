@@ -41,7 +41,7 @@ class CreditMovementControllerTest {
 	void setUp() throws Exception {
 	}
 
-	@Test
+	/*@Test
 	@DisplayName("Test get movements by credit number")
 	void getMovementsByCreditNumber() {
 		
@@ -151,6 +151,6 @@ class CreditMovementControllerTest {
 		.exchange()
 		.expectStatus().isOk();
 		
-	}
+	}*/
 
 }

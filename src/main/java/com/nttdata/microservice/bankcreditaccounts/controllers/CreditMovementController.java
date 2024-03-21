@@ -15,10 +15,10 @@ import com.nttdata.microservice.bankcreditaccounts.services.ICreditMovementServi
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController
-@RequestMapping(value = "/creditMovements")
+//@RestController
+//@RequestMapping(value = "/creditMovements")
 public class CreditMovementController {
-	
+	/*
 	public static Logger log = Logger.getLogger(CreditMovementController.class);
 	
 	@Autowired
@@ -48,5 +48,5 @@ public class CreditMovementController {
 	public Mono<Void> savePaymentCreditThird(@RequestBody CreditMovementCollection collection){
 		return service.savePaymentCreditThird(collection);
 	}
-	
+	*/
 }

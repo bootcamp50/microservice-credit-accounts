@@ -1,6 +1,7 @@
 package com.nttdata.microservice.bankcreditaccounts.enums;
 
-public enum PersonTypeEnum {
-	ENTERPRISE,
-	PERSONAL
+public enum CreditStateEnum {
+	ACTIVE,
+	INACTIVE
+
 }

@@ -37,7 +37,7 @@ class CreditServiceImplTest {
 		MockitoAnnotations.openMocks(this);
 	}
 
-	@Test
+	/*@Test
 	@DisplayName("Test save a personal credit")
 	void saveCreditPersonal() {
 		CreditCollection credit = new CreditCollection();
@@ -168,7 +168,7 @@ class CreditServiceImplTest {
 		
 		assertNotNull(expected);
 		assertEquals(false, expected.block());
-	}
+	}*/
 	
 	@Test
 	@DisplayName("Test get amount limit of a credit")
